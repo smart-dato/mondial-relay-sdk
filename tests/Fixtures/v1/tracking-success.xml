@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <soap:Body>
+    <WSI2_TracingColisDetailleResponse xmlns="http://www.mondialrelay.fr/webservice/">
+      <WSI2_TracingColisDetailleResult>
+        <STAT>82</STAT>
+        <Libelle01>Your parcel has been delivered</Libelle01>
+        <Relais_Libelle>CARREFOUR EXPRESS</Relais_Libelle>
+        <Relais_Num>005720</Relais_Num>
+        <Libelle02></Libelle02>
+        <Tracing>
+          <ret_WSI2_sub_TracingColisDetaille>
+            <Libelle>Parcel registered</Libelle>
+            <Date>20/07/2026</Date>
+            <Heure>10:15</Heure>
+            <Emplacement>LILLE</Emplacement>
+            <Relais_Num></Relais_Num>
+            <Relais_Pays></Relais_Pays>
+          </ret_WSI2_sub_TracingColisDetaille>
+          <ret_WSI2_sub_TracingColisDetaille>
+            <Libelle>Parcel in transit</Libelle>
+            <Date>21/07/2026</Date>
+            <Heure>06:42</Heure>
+            <Emplacement>SORTING HUB NORD</Emplacement>
+            <Relais_Num></Relais_Num>
+            <Relais_Pays></Relais_Pays>
+          </ret_WSI2_sub_TracingColisDetaille>
+          <ret_WSI2_sub_TracingColisDetaille>
+            <Libelle>Parcel delivered to pickup point</Libelle>
+            <Date>22/07/2026</Date>
+            <Heure>14:30</Heure>
+            <Emplacement>LILLE</Emplacement>
+            <Relais_Num>005720</Relais_Num>
+            <Relais_Pays>FR</Relais_Pays>
+          </ret_WSI2_sub_TracingColisDetaille>
+        </Tracing>
+      </WSI2_TracingColisDetailleResult>
+    </WSI2_TracingColisDetailleResponse>
+  </soap:Body>
+</soap:Envelope>

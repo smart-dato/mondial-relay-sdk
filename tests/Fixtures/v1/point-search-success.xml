@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <soap:Body>
+    <WSI4_PointRelais_RechercheResponse xmlns="http://www.mondialrelay.fr/webservice/">
+      <WSI4_PointRelais_RechercheResult>
+        <STAT>0</STAT>
+        <PointsRelais>
+          <PointRelais_Details>
+            <Num>005720  </Num>
+            <LgAdr1>CARREFOUR EXPRESS                 </LgAdr1>
+            <LgAdr2>                                  </LgAdr2>
+            <LgAdr3>102 RUE NATIONALE                 </LgAdr3>
+            <LgAdr4>                                  </LgAdr4>
+            <CP>59000</CP>
+            <Ville>LILLE                       </Ville>
+            <Pays>FR</Pays>
+            <Localisation1>PRES DE LA POSTE</Localisation1>
+            <Localisation2></Localisation2>
+            <Latitude> 50,6292500</Latitude>
+            <Longitude>  3,0573200</Longitude>
+            <TypeActivite>D2</TypeActivite>
+            <NACE></NACE>
+            <Information></Information>
+            <Horaires_Lundi>
+              <string>0800</string>
+              <string>1230</string>
+              <string>1400</string>
+              <string>1900</string>
+            </Horaires_Lundi>
+            <Horaires_Mardi>
+              <string>0800</string>
+              <string>1900</string>
+              <string>0000</string>
+              <string>0000</string>
+            </Horaires_Mardi>
+            <Horaires_Mercredi>
+              <string>0800</string>
+              <string>1900</string>
+              <string>0000</string>
+              <string>0000</string>
+            </Horaires_Mercredi>
+            <Horaires_Jeudi>
+              <string>0800</string>
+              <string>1900</string>
+              <string>0000</string>
+              <string>0000</string>
+            </Horaires_Jeudi>
+            <Horaires_Vendredi>
+              <string>0800</string>
+              <string>1900</string>
+              <string>0000</string>
+              <string>0000</string>
+            </Horaires_Vendredi>
+            <Horaires_Samedi>
+              <string>0900</string>
+              <string>1300</string>
+              <string>0000</string>
+              <string>0000</string>
+            </Horaires_Samedi>
+            <Horaires_Dimanche>
+              <string>0000</string>
+              <string>0000</string>
+              <string>0000</string>
+              <string>0000</string>
+            </Horaires_Dimanche>
+            <URL_Photo>https://ww2.mondialrelay.com/public/photo/005720.jpg</URL_Photo>
+            <URL_Plan>https://www.mondialrelay.fr/trouver-le-point-relais-le-plus-proche-de-chez-moi/?NumPointRelais=005720</URL_Plan>
+            <Distance>250</Distance>
+          </PointRelais_Details>
+          <PointRelais_Details>
+            <Num>012345  </Num>
+            <LgAdr1>TABAC DE LA GARE                  </LgAdr1>
+            <LgAdr2>                                  </LgAdr2>
+            <LgAdr3>4 PLACE DE LA GARE                </LgAdr3>
+            <LgAdr4>                                  </LgAdr4>
+            <CP>59000</CP>
+            <Ville>LILLE                       </Ville>
+            <Pays>FR</Pays>
+            <Localisation1></Localisation1>
+            <Localisation2></Localisation2>
+            <Latitude> 50,6365400</Latitude>
+            <Longitude>  3,0708900</Longitude>
+            <TypeActivite>D3</TypeActivite>
+            <NACE></NACE>
+            <Information></Information>
+            <Horaires_Lundi>
+              <string>0700</string>
+              <string>2000</string>
+              <string>0000</string>
+              <string>0000</string>
+            </Horaires_Lundi>
+            <Horaires_Mardi>
+              <string>0700</string>
+              <string>2000</string>
+              <string>0000</string>
+              <string>0000</string>
+            </Horaires_Mardi>
+            <Horaires_Mercredi>
+              <string>0700</string>
+              <string>2000</string>
+              <string>0000</string>
+              <string>0000</string>
+            </Horaires_Mercredi>
+            <Horaires_Jeudi>
+              <string>0700</string>
+              <string>2000</string>
+              <string>0000</string>
+              <string>0000</string>
+            </Horaires_Jeudi>
+            <Horaires_Vendredi>
+              <string>0700</string>
+              <string>2000</string>
+              <string>0000</string>
+              <string>0000</string>
+            </Horaires_Vendredi>
+            <Horaires_Samedi>
+              <string>0700</string>
+              <string>2000</string>
+              <string>0000</string>
+              <string>0000</string>
+            </Horaires_Samedi>
+            <Horaires_Dimanche>
+              <string>0900</string>
+              <string>1200</string>
+              <string>0000</string>
+              <string>0000</string>
+            </Horaires_Dimanche>
+            <URL_Photo></URL_Photo>
+            <URL_Plan></URL_Plan>
+            <Distance>820</Distance>
+          </PointRelais_Details>
+        </PointsRelais>
+      </WSI4_PointRelais_RechercheResult>
+    </WSI4_PointRelais_RechercheResponse>
+  </soap:Body>
+</soap:Envelope>
