@@ -37,4 +37,4 @@ Standard Spatie package structure built on `spatie/laravel-package-tools`:
 - HTTP is faked with `Http::fake()` + SOAP XML fixtures in `tests/Fixtures/v1/`. Pest's built-in `fixture()` helper returns the absolute path to a fixture file (wrap with `file_get_contents`).
 - Live tests against the real Mondial Relay test API (credentials in `docs/Mondial Relay.pdf`) are in the `integration` group, skipped unless `MONDIAL_RELAY_LIVE=1`: `MONDIAL_RELAY_LIVE=1 vendor/bin/pest --group=integration`. Run them after touching `V1\Client` request building — they validate the Security hash against the live endpoint.
 - `tests/ArchTest.php` enforces that `dd`, `dump`, and `ray` are never committed.
-- CI matrix: PHP 8.3–8.5 × Laravel 12/13 × prefer-lowest/prefer-stable on Ubuntu and Windows. `composer.json` requires PHP `^8.4` — keep code compatible with the full CI matrix.
+- CI matrix: PHP 8.4–8.5 × Laravel 12/13 × prefer-lowest/prefer-stable on Ubuntu and Windows. `composer.json` requires PHP `^8.4` — keep code compatible with the full CI matrix. All GitHub Actions must be pinned to full-length commit SHAs (org policy).
