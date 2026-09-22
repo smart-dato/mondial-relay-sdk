@@ -21,3 +21,8 @@ updates:
       - "dependencies"
     cooldown:
       default-days: 1
+    ignore:
+      # laravel/framework still requires guzzle ^7.8.2, so a major bump here can
+      # never resolve. Remove this once Laravel ships support for guzzle 8.
+      - dependency-name: "guzzlehttp/guzzle"
+        update-types: ["version-update:semver-major"]
