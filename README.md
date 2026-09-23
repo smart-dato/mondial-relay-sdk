@@ -2,7 +2,7 @@
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/smart-dato/mondial-relay-sdk.svg?style=flat-square)](https://packagist.org/packages/smart-dato/mondial-relay-sdk)
 [![GitHub Tests Action Status](https://github.com/smart-dato/mondial-relay-sdk/actions/workflows/run-tests.yml/badge.svg)](https://github.com/smart-dato/mondial-relay-sdk/actions?query=workflow%3Arun-tests+branch%3Amain)
-[![GitHub Code Style Action Status](https://github.com/smart-dato/mondial-relay-sdk/actions/workflows/fix-php-code-style-issues.yml/badge.svg)](https://github.com/smart-dato/mondial-relay-sdk/actions?query=workflow%3A"Fix+PHP+code+style+issues"+branch%3Amain)
+[![GitHub Code Style Action Status](https://github.com/smart-dato/mondial-relay-sdk/actions/workflows/code-style.yml/badge.svg)](https://github.com/smart-dato/mondial-relay-sdk/actions?query=workflow%3A%22Code+style%22+branch%3Amain)
 [![Total Downloads](https://img.shields.io/packagist/dt/smart-dato/mondial-relay-sdk.svg?style=flat-square)](https://packagist.org/packages/smart-dato/mondial-relay-sdk)
 
 A Laravel SDK for the [Mondial Relay](https://www.mondialrelay.fr) shipping APIs.
